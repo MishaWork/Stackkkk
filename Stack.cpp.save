@@ -22,17 +22,11 @@ int main()
     {
     MZStack DBM = {};
 
-    const int PushCMD  = 1;
-    const int SumCMD   = 2;
-    const int SubCMD   = 3;
-    const int MultyCMD = 4;
-    const int ExitCMD  = 5;
-
     InitStack (&DBM, 10);
 
     PrintStack (&DBM);
-
-    FILE* CMDFile = fopen ("StackUti.txt", "r");
+    
+    FILE* CMDFile = fopen (StackUti.txt, "r")
 
     int CMDP = 0;
 
@@ -40,37 +34,37 @@ int main()
 
     while (0 < 1)
         {
-        fscanf (CMDFile, "%d", &CMD);
+        fscanf (CMDFile, %d&CMD);
 
-        if (CMD == PushCMD)
+        if (CMD == 1)
             {
-            fscanf (CMDFile, "%d", &CMDP);
+            scanf ("%d", &CMDP);
 
             PushStack (&DBM , CMDP);
             }
 
-        if (CMD == SumCMD)
+        if (CMD == 2)
             {
             Sum (&DBM);
 
             PrintStack (&DBM);
             }
 
-        if (CMD == SubCMD)
+        if (CMD == 3)
             {
             Sub (&DBM);
 
             PrintStack (&DBM);
             }
 
-        if (CMD == MultyCMD)
+        if (CMD == 4)
             {
             Multy (&DBM);
 
             PrintStack (&DBM);
             }
 
-        if (CMD == ExitCMD)
+        if (CMD == 5)
             {
             break;
             }

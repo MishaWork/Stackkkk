@@ -1,0 +1,180 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7772040C в функции ungetwc(). Попытка записать данные по адресу NULL в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400], Instance: 0x0050E064 (32-bit), Flags: Cmdre0, Thread: 0x289C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7772040C in C:\WINDOWS\System32\msvcrt.dll: ungetwc()
+# 1 0x77715097 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+# 2 0x77715038 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+
+# 3 0x00494864 in C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe: main() at C:/Users/Mihail/Desktop/Stack/Stackkkk/Stack.cpp (35):
+
+     33:     while (0 < 1)
+     34:         {
+=>   35:         scanf ("%d", CMD);
+     36: 
+     37:         if (CMD == 1)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Mihail\Desktop\c++\TX\TXLib.h
+Compiled:	May  4 2022 20:20:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 04 2022 20:20:51
+
+Run file:	C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe
+Directory:	C:\Users\Mihail\Desktop\Stack\Stackkkk
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7772040C в функции ungetwc(). Попытка записать данные по адресу NULL в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400], Instance: 0x0050E064 (32-bit), Flags: Cmdre0, Thread: 0x289C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7772040C in C:\WINDOWS\System32\msvcrt.dll: ungetwc()
+# 1 0x77715097 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+# 2 0x77715038 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+
+# 3 0x00494864 in C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe: main() at C:/Users/Mihail/Desktop/Stack/Stackkkk/Stack.cpp (35):
+
+     33:     while (0 < 1)
+     34:         {
+=>   35:         scanf ("%d", CMD);
+     36: 
+     37:         if (CMD == 1)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Mihail\Desktop\c++\TX\TXLib.h
+Compiled:	May  4 2022 20:20:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 04 2022 20:20:51
+
+Run file:	C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe
+Directory:	C:\Users\Mihail\Desktop\Stack\Stackkkk
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7772040C в функции ungetwc(). Попытка записать данные по адресу NULL в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400], Instance: 0x0050E064 (32-bit), Flags: Cmdre0, Thread: 0x10DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7772040C in C:\WINDOWS\System32\msvcrt.dll: ungetwc()
+# 1 0x77715097 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+# 2 0x77715038 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+
+# 3 0x00494864 in C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe: main() at C:/Users/Mihail/Desktop/Stack/Stackkkk/Stack.cpp (35):
+
+     33:     while (0 < 1)
+     34:         {
+=>   35:         scanf ("%d", CMD);
+     36: 
+     37:         if (CMD == 1)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Mihail\Desktop\c++\TX\TXLib.h
+Compiled:	May  4 2022 20:21:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 04 2022 20:21:36
+
+Run file:	C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe
+Directory:	C:\Users\Mihail\Desktop\Stack\Stackkkk
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7772040C в функции ungetwc(). Попытка записать данные по адресу NULL в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400], Instance: 0x0050E064 (32-bit), Flags: Cmdre0, Thread: 0x10DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7772040C in C:\WINDOWS\System32\msvcrt.dll: ungetwc()
+# 1 0x77715097 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+# 2 0x77715038 in C:\WINDOWS\System32\msvcrt.dll: scanf()
+
+# 3 0x00494864 in C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe: main() at C:/Users/Mihail/Desktop/Stack/Stackkkk/Stack.cpp (35):
+
+     33:     while (0 < 1)
+     34:         {
+=>   35:         scanf ("%d", CMD);
+     36: 
+     37:         if (CMD == 1)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-09-14 18:45:19 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\Mihail\Desktop\c++\TX\TXLib.h
+Compiled:	May  4 2022 20:21:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 04 2022 20:21:36
+
+Run file:	C:\Users\Mihail\Desktop\Stack\Stackkkk\Stack.exe
+Directory:	C:\Users\Mihail\Desktop\Stack\Stackkkk
+
+--------------------------------------------------
